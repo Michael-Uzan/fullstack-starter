@@ -1,0 +1,118 @@
+// Font Sizes
+
+.fs12 {
+  font-size: rem(12px);
+}
+
+.fs14 {
+  font-size: rem(14px);
+}
+
+.fs16 {
+  font-size: rem(16px);
+}
+
+.fs18 {
+  font-size: rem(18px);
+}
+
+.fs20 {
+  font-size: rem(20px);
+}
+
+.fs24 {
+  font-size: rem(24px);
+}
+
+.fs28 {
+  font-size: rem(28px);
+}
+
+.fs30 {
+  font-size: rem(30px);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+// flex helpers
+
+.flex {
+  display: flex;
+
+  > *.full {
+    flex: 1;
+  }
+
+  &.direction-col {
+    flex-direction: column;
+  }
+
+  &.direction-row {
+    flex-direction: row;
+  }
+
+  &.justify-center {
+    justify-content: center;
+  }
+
+  &.align-center {
+    align-items: center;
+  }
+
+  &.space-between {
+    justify-content: space-between;
+  }
+
+  &.space-around {
+    justify-content: space-around;
+  }
+
+  &.items-flex-start {
+    align-items: flex-start;
+  }
+
+  &.wrap {
+    flex-wrap: wrap;
+  }
+}
+
+.tac {
+  text-align: center;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.clean-list {
+  padding-inline-start: 0px;
+  margin: 0;
+  list-style-type: none;
+}
+
+.card-details-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.fancy-scrollbar {
+  &::-webkit-scrollbar {
+    width: 9px;
+    padding-bottom: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    margin-bottom: 4px;
+    border-radius: 1rem;
+    background: #091e4214;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background: #bfc3ce;
+  }
+}
